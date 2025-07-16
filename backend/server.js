@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-   origin: [process.env.CLIENT_URL ||'http://localhost:5173','https://mail-mindr-email.vercel.app'], 
+   origin: [process.env.CLIENT_URL ||'http://localhost:5173','https://mail-mindr-auto.vercel.app'], 
    credentials: true 
   }));
 app.use(express.json());
